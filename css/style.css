@@ -1,3 +1,36 @@
-.section {
-    
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.logo-name{
+    padding-left:60px;
+    font-size: 30px;
+}
+.logo-kowsar{
+    color: crimson;
+}
+.logo-mamun{
+color: darkgoldenrod;
+}
+.nav-bar {
+    padding-top: 7%;
+
+}
+.nav-bar a{
+    float: left;
+  padding: 0;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
 }
